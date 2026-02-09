@@ -1,0 +1,15 @@
+h1{
+    color: beige;
+}
+*{
+    color: rgba(0, 0, 0, 0.359);
+}
+#a01{
+    color: rebeccapurple;
+}
+.b01{
+    color: red;
+}
+body{
+    background-color: rgba(128, 128, 128, 0.927);
+}
