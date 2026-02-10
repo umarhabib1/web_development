@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectores</title>
+    <style>
+       div{
+        /* elment selector */
+        background-color: red;
+       }
+       .blue{
+        /* class selector */
+        background-color: blue;
+       }
+       div > p {
+        /* child selector */
+        background-color: green;
+       }
+
+       div p { 
+        /* Decendent selector */
+        background-color: rgb(2, 40, 49);
+       }
+       *{
+        /* universal selector */
+        padding: 0;
+        margin: 0;
+       }
+
+       #span{
+        background-color: olive;
+       }
+       /* pseudo selectors */
+
+       a:active{
+        background-color: purple;
+       }
+
+       a:visited{
+        background-color: seagreen;
+       }
+
+       a:hover{
+        background-color: fuchsia;
+       }
+    </style>
+</head>
+<body>
+    <div>
+        this is a div
+        <p>i am para</p>
+    </div>
+    <div class="blue">
+        this is another  div 
+     <article>
+        <p>i am another para</p>
+     </article>
+    </div>
+
+    <span id="span"> i am span</span>
+
+    <a href="https:google.com">Go to Google</a>
+    <a href="https:youtube.com">GO to Youtube</a>
+</body>
+</html>
