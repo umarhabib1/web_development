@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>size units in css</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            color: white;
+             
+        }
+
+        .boxes {
+            background-color: rgb(0, 0, 0);
+            font-size: 16px;
+        }
+
+        .box1 {
+            font-size: 10px;
+        }
+
+        .box2 {
+            font-size: 10vh;
+        }
+
+        .vh {
+            background-color: blue;
+            height: 100vh;
+            display: inline-block;
+        }
+
+        .vw {
+            background-color: rgb(255, 0, 0);
+            height: 5vw;
+            display: inline-block;
+
+        }
+
+        .child{
+            font-size: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+     <div class="boxes box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo perferendis necessitatibus
+        quae
+        voluptatum saepe dolor suscipit ab sint delectus amet doloribus, velit facere, deleniti, laboriosam
+
+        reprehenderit. Dolorum qui cum cumque?</div>
+    <br>
+    <div class="boxes box2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam esse provident ad, officiis
+        accusamus minus repudiandae, exercitationem eos, accusantium vero nam mollitia sed! Corporis iste nihil fugiat a
+        exercitationem nostrum!</div>
+    <br>
+    <div class="boxes box3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni nisi sed ex ipsam.
+        Asperiores, provident minus. Laudantium soluta suscipit, ea quaerat, quis labore voluptate eum voluptates
+        accusamus, natus ratione nobis!</div>
+    <br>
+    <div class="boxes box4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptatibus similique
+        veniam veritatis amet blanditiis incidunt explicabo? Esse, nihil officiis voluptates dolor eius molestiae, at
+        accusantium sequi omnis porro perferendis.</div>
+    <br>
+    <div class="boxes box5">
+        <div class="child">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum possimus soluta, quos commodi
+            illo laboriosam atque, ut molestiae odio, ullam obcaecati distinctio modi odit sint amet quaerat totam
+            dolorem illum.</div>
+    </div>
+     <br>
+    <div style="width: 1000px; background-color: blue;">as</div>
+    <span class="vh">
+        Lorem
+    </span>
+    <span class="vw">
+        Lorem
+    </span>
+</body>
+
+</html>
