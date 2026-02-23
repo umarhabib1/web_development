@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root{
+            --color: rgb(0, 0, 255);
+            --background-color: rgb(0, 83, 109);
+            --size: 50px;
+            
+        }
+        p{
+            background-color: var(--background-color);
+            color: var(--color,red);
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            background-color: var(--background-color);
+            border-radius: var(--size);
+            border: var(--size) solid black;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam placeat cupiditate mollitia dolores porro ab architecto aperiam qui ea suscipit. Tenetur, asperiores? Consequuntur non laboriosam ratione dolorem id culpa autem.</p>
+
+    <div class="box"></div>
+</body>
+</html>
