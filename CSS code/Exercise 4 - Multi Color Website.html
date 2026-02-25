@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4 - Multi Color Website</title>
+    <style>
+    :root {
+      --color: rgb(242, 63, 63);
+      --seccolor: rgb(189, 248, 12);
+    }
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body{
+        background-color: darkgray;  
+      }
+
+    .navbar {
+      background-color: var(--seccolor);
+      margin: 17px;
+    
+    }
+
+    li {
+      list-style: none;
+      font-size: 23px;
+    }
+    ul {
+      display: flex;
+    }
+
+    ul li {
+      padding: 23px;
+    }
+
+    ul li:first-child {
+      --color: rgb(255, 68, 0);
+      background-color: var(--color);
+    }
+    ul li:nth-child(2) {
+      --color: rgb(8, 85, 250);
+      background-color: var(--color);
+    }
+    ul li:nth-child(3) {
+      --color: rgb(234, 255, 0);
+      background-color: var(--color);
+    }
+    ul li:nth-child(4) {
+      --color: rgb(8, 250, 226);
+      background-color: var(--color);
+    }
+
+  </style>
+</head>
+<body>
+    <div class="navbar">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+</body>
+</html>
