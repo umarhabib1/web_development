@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More CSS selectors</title>
+    <style>
+        /* .boxes:first-child{
+            background-color: red;
+        } */
+/* 
+          .box::first-line{
+            background-color: darkblue;
+          }
+          .boxes *{
+            color: palevioletred;
+            border: 2px solid black;
+          }
+
+          [data-color="primary"]{
+            background-color: sienna;
+          } */
+
+          /* .box:nth-child(odd){
+            background-color: red;
+          }
+           */
+
+           .boxes::before{
+            content: "i am umar";
+            color: tomato;
+           }
+           .boxes::after{
+            content: "i am umar also ";
+            color: pink;
+           }
+           *::selection{
+            background-color: black;
+            color: green;
+           }
+
+           .box::first-letter{
+            color: saddlebrown;
+           }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+        <div class="box">i am div Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ipsum modi facere reprehenderit at qui, perferendis tempora ducimus error nesciunt cupiditate illo voluptatem! Accusantium placeat, et dolorum veniam quasi numquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, dolores necessitatibus iste quos iusto eius earum tenetur repellat minus iure voluptatum est reiciendis repellendus excepturi numquam, cumque magni minima repudiandae!</div>
+        <div class="box" data-color="primary">hey i am a box</div>
+        <div class="box">hey i am a box</div>
+    </div>
+</body>
+
+</html>
