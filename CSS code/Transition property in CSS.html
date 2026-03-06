@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition property</title>
+    <style>
+        .container{
+            background-color: coral;
+            width: 80vh;
+            height: 50vh;
+        }
+        .box{
+            background-color: blue;
+            width: 20vh;
+            height: 10vh;
+            /* transition-property: transform ,background-color ;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s; */
+            transition: all 2s ease-in-out 1s;
+        }
+        .trans{
+            transform: translatex(10vh) translatey(20vh);
+            background-color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box trans" ></div>
+    </div>
+</body>
+</html>
