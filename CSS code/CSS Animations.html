@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .contanier {
+            background-color: chartreuse;
+            width: 60vw;
+            height: 60vh;
+        }
+
+        .box {
+            background-color: yellow;
+            width: 20vw;
+            height:10vh;
+            /* animation-name:animation ;
+            animation-duration: 3s;
+            animation-delay: 0.1s;
+            animation-timing-function: ease;
+            animation-iteration-count:infinite ;
+            animation-direction:alternate ; */
+
+            
+        }
+
+        @keyframes animationX {
+            from {
+                left: 0;
+            }
+
+            to {
+                left: 100%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contanier">
+        <div class="box"></div>
+    </div>
+</body>
+
+</html>
