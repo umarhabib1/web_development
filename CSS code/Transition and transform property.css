@@ -1,0 +1,29 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px black solid;
+    position: absolute;
+    margin: 40px;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    /* transform: rotate(100deg); */
+    /* rotate: x 180ded; */
+    /* transform: scale(2); */
+}
+div:hover{
+    transition: all 2s ease-in-out 0.2s;
+     background-color: red; 
+    font-size: 20px;
+     border-radius: 100%;
+    transform: rotate(100000000000000deg); 
+    /* transform: skew(45deg);  */
+    /* transform: translatex(700px); */
+    /* transition-delay: 1s; */
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVtum82tS-sGsk69H96w6NL2skWQWUDJaM3A&s); */
+    /*background-size: cover;*/
+} 
+div:active{
+    background-color: wheat;
+}
