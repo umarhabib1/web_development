@@ -1,0 +1,18 @@
+div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+ #box1{
+    background-image: url(https://i.pinimg.com/736x/47/69/d5/4769d5dd552767f27ac35fc526cbc117.jpg);
+    background-size: cover;
+} 
+#box2{
+    background-image: url(https://i.pinimg.com/736x/2c/7c/56/2c7c56f47c7b7271c58613bd41b98f42.jpg);
+    background-size:cover ;
+}
+body{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/1010/613/78/minecraft-minecraft-dungeons-minecraft-the-end-enderman-minecraft-4k-hd-wallpaper-preview.jpg);
+    background-size: cover;
+}
