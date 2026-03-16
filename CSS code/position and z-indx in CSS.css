@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color:  aquamarine;
+    border: 2px solid black;
+    display: inline-block;
+}
+#box1{
+    position: static;
+}
+#box2{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    z-index: 1;
+}
+ #box3{
+     position: sticky;
+     top: 10px;
+} 
+ 
+ #box4{
+    position: fixed;
+    right: 10px;
+    top: 0;
+}
