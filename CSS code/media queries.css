@@ -1,0 +1,26 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(13, 212, 212);
+}
+
+/* Exact width = 600px */
+@media (width:600px){
+    div{
+        background-color: red;
+    }
+}
+
+/* Screen 200px or smaller */
+@media (max-width:200px){
+    div{
+        border: 5px solid darkmagenta;
+    }
+}
+
+/* Between 200px and 600px */
+@media (min-width:200px) and (max-width:600px){
+    div{
+        background-color: rgb(173, 241, 14);
+    }
+}
