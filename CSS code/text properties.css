@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    text-decoration: blue wavy overline underline;
+}
+p{
+    text-align: right;
+}
+
+#b01{
+    font-weight: bolder;
+}
+#b02{
+    font-family: 'Courier New', Courier, monospace;
+}
+#b03{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+}
+#a01{
+    font-size: 10px;
+}
+/* #a02{
+    font-size: 300px;
+} */
+#c01{
+    line-height: 2px;
+}
+#c02{
+    line-height: 50px;
+}
+
+#d01{
+    text-transform: capitalize;
+}
+#d02{
+    text-transform: lowercase;
+}
+#d03{
+    text-transform: uppercase;
+}
