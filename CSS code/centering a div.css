@@ -1,0 +1,14 @@
+#box1{
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: darkred;
+}
