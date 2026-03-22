@@ -1,0 +1,40 @@
+
+div{
+    display: inline-block;
+     margin: 20px;
+    padding: 25px;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+}
+#blue{
+    background-color: blue;
+}
+button{
+    background-color: darkolivegreen;
+    display: block;
+}
+h2{
+    background-color: gold;
+    display: none;
+}
+#a{
+    display: inline-block;
+    background-color: red;
+}
+#b{
+    display: inline-block;
+    background-color: blue;
+    visibility: hidden;
+}
+#c{
+    display: inline-block;
+    background-color: green;
+    
+}
+#as{
+    background-color: rgba(255,0,0,0.3);
+}
