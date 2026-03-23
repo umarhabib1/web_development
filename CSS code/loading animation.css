@@ -1,0 +1,16 @@
+div{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px rgb(11, 15, 233) solid;
+    /* background-color: aqua; */
+    
+    /* background-size: cover; */
+    border-top: 10px rgb(13, 176, 240) solid;
+    animation: animation 2s ease-in-out 0s infinite normal;
+}
+
+@keyframes animation{
+     from{transform: rotate(0deg);}
+     to{transform: rotate(360deg);}
+}
