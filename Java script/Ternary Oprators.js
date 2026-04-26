@@ -3,7 +3,7 @@ let age = 19;
 age>=18?console.log("you are adult"): console.log("you are not adult"); 
 
 
-project 1
+// project 1
 let a = prompt("enter a number");
 
 if(a%5 == 0 ){
