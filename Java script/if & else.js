@@ -1,5 +1,8 @@
 // console.log("if & else");
 
+// if (condition) {
+    
+// }
 
 // let age = 15;
 // let grace = 5;
