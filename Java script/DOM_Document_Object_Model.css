@@ -1,0 +1,25 @@
+/* body{
+    background-color: gray;
+}
+*{
+    color: brown;
+}
+button{
+       background-color: gray;
+}
+h1{
+    visibility: hidden;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: darkturquoise;
+    color: black;
+    border: 2px black solid;
+} */
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+
+.newclass{
+    background-color: green;
+}
