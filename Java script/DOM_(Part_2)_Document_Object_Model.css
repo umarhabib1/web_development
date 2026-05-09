@@ -1,0 +1,44 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 50%;
+    background-color: rgb(236, 0, 0);
+}
+#a1{
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 50%;
+    background-color: rgb(10, 0, 100);
+    
+} */
+
+
+/* ///////////////// project 1/////////////////////////////////////// */
+
+/* .dark{
+background-color: black;
+color: white;
+}
+.light{
+    background-color: white;
+    color: black;
+} */
+
+
+#d1{
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 50%;
+    background-color: rgb(236, 0, 0);
+}
+
+#d2{
+      height: 200px;
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 50%;
+    background-color: rgb(10, 0, 100);
+}
